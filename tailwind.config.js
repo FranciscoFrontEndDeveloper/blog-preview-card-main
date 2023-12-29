@@ -11,6 +11,9 @@ module.exports = {
     fontFamily: {
       body: ["Figtree"],
     },
+    gridTemplateRows: {
+      "grid-rows-2": "repeat(2,minmax(auto,1fr))",
+    },
     extend: {},
   },
   plugins: [],
