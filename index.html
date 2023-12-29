@@ -27,32 +27,44 @@
   </head>
   <body>
     <main
-      class="w-full h-screen bg-Yellow flex justify-center flex-col items-center"
+      class="w-full h-screen bg-Yellow flex justify-center flex-col items-center font-Figtree"
     >
-      <section class="w-80 h-auto bg-White p-5 rounded-lg grid grid-rows-2">
+      <section
+        class="w-80 h-auto bg-White p-5 rounded-lg grid grid-rows-2 gap-y-5 border-Black border-solid border-2 shadow-[8px_8px_0px_0px_#121212]"
+      >
         <div>
           <picture
             ><img
+              class="rounded-[10px]"
               src="assets/images/illustration-article.svg"
               alt="illustration-article"
           /></picture>
         </div>
         <div>
-          <div class="grid grid-rows-5">
-            <div><strong class="bg-Yellow p-1">Learning</strong></div>
-            <div><p>Published 21 Dec 2023</p></div>
+          <div class="grid grid-rows-5 gap-y-5">
             <div>
-              <h1>HTML & CSS foundations</h1>
+              <strong
+                class="bg-Yellow font-extrabold py-1 px-3 text-sm rounded-sm"
+                >Learning</strong
+              >
+            </div>
+            <div><p class="font-semibold">Published 21 Dec 2023</p></div>
+            <div>
+              <h1
+                class="font-extrabold text-xl hover:text-Yellow hover:cursor-pointer"
+              >
+                HTML & CSS foundations
+              </h1>
             </div>
             <div>
-              <p>
+              <p class="text-Grey text-sm">
                 These languages are the backbone of every website, defining
                 structure, content, and presentation.
               </p>
             </div>
-            <div class="flex flex-row">
+            <div class="flex flex-row items-center gap-x-4">
               <picture
-                ><img src="assets/images/image-avatar.webp" alt=""
+                ><img class="w-9" src="assets/images/image-avatar.webp" alt=""
               /></picture>
               <strong>Greg Hooper</strong>
             </div>
